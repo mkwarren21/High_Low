@@ -21,12 +21,10 @@ do {
 		fwrite(STDOUT, "By Jove I think it's got it!");
 	} elseif ($guess < $number){
 		fwrite(STDOUT, "HIGHER WART! \n");
-		echo $number;
 		$guess = fgets(STDIN);
 		$a++;
 	}else {
 		fwrite(STDOUT, "LOWER, YOU FOOL!\n");
-		echo $number;
 		$guess = fgets(STDIN);
 		$a++;
 	}
